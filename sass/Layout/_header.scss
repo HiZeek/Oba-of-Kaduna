@@ -1,0 +1,37 @@
+header {
+    background-color: $color-white;
+    height: 75vh;   
+}
+
+.hw {
+    position: relative;
+
+    &-writeup {
+        background-image: url(../img/Background.png);
+        height: 64.7vh;
+        width: 75vw;
+        margin: 0 auto;
+        background-size: 100%;
+        background-position: center;
+        padding-top: 5rem;
+        text-align: center;
+        margin-top: -15.5rem;
+        position: absolute;
+        left: 4rem;
+
+        &-1{
+            font-size: 1rem;
+            margin: 3rem 0 5rem 0;
+        }
+
+        &-2 {
+            font-size: 3rem;
+            margin-bottom: 5rem;
+        }
+
+        &-1, &-2 {
+            color: $color-white;
+        }
+    }
+
+}

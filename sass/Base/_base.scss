@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 100%;  //1rem = 16px
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 71.25rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+h2 {
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}

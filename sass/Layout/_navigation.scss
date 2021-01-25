@@ -1,0 +1,42 @@
+.header {
+
+    background-color: $color-white;
+    height: 75vh;
+    text-align: center;
+
+    &-logo {
+        margin: 2rem 0;
+    }
+
+    &-list {
+        display: flex;
+        gap: 3rem;
+        justify-content: center;
+
+
+        &-item {
+            list-style: none;
+        }
+
+        &-a {
+            text-decoration: none;
+            color: $color-gray3;
+        }
+
+        &-active {
+            color: $color-dark;
+            padding-bottom: .4rem;
+            border-bottom: 1px solid $color-dark;
+
+            // &::after {
+            //     display: block;
+            //     content: "";
+            //     height: 1px;
+            //     width: 3px;
+            //     color: $color-dark;
+            //}
+        }
+    }
+}
+
+

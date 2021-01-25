@@ -1,0 +1,14 @@
+{
+  "name": "oba-of-kd",
+  "version": "1.0.0",
+  "description": "Oba-of Kaduna",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "author": "HiZeek.Dev",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

@@ -1,0 +1,117 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 100%; }
+
+body {
+  box-sizing: border-box; }
+
+.container {
+  max-width: 71.25rem;
+  margin: 0 auto; }
+
+h1 {
+  font-weight: 600; }
+
+h2 {
+  font-weight: 500; }
+
+h3 {
+  font-weight: 500; }
+
+h1, h2, h3 {
+  text-transform: uppercase; }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600; }
+
+.building {
+  display: grid;
+  grid-template-columns: 1fr, 1fr;
+  column-gap: 100; }
+  .building-info-img {
+    width: 100%;
+    height: auto; }
+
+.row {
+  max-width: 71.25rem;
+  margin: 0 auto; }
+  .row:not(:last-child) {
+    margin-bottom: 8rem; }
+  .row::after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row [class^="col-"] {
+    float: left; }
+    .row [class^="col-"]:not(:last-child) {
+      margin-right: 6rem; }
+  .row .col-1-of-2 {
+    width: calc((100% - 6rem) / 2); }
+  .row .col-1-of-3 {
+    width: calc((100% - 2 * 6rem) / 3); }
+  .row .col-2-of-3 {
+    width: calc(2 * ((100% - 2 * 6rem) / 3) + 6rem); }
+  .row .col-1-of-4 {
+    width: calc((100% - 3 * 6rem) / 4); }
+  .row .col-2-of-4 {
+    width: calc(2 * ((100% - 3 * 6rem) / 4) + 6rem); }
+  .row .col-3-of-4 {
+    width: calc(3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
+
+header {
+  background-color: #ffffff;
+  height: 75vh; }
+
+.hw {
+  position: relative; }
+  .hw-writeup {
+    background-image: url(../img/Background.png);
+    height: 64.7vh;
+    width: 75vw;
+    margin: 0 auto;
+    background-size: 100%;
+    background-position: center;
+    padding-top: 5rem;
+    text-align: center;
+    margin-top: -15.5rem;
+    position: absolute;
+    left: 4rem; }
+    .hw-writeup-1 {
+      font-size: 1rem;
+      margin: 3rem 0 5rem 0; }
+    .hw-writeup-2 {
+      font-size: 3rem;
+      margin-bottom: 5rem; }
+    .hw-writeup-1, .hw-writeup-2 {
+      color: #ffffff; }
+
+.header {
+  background-color: #ffffff;
+  height: 75vh;
+  text-align: center; }
+  .header-logo {
+    margin: 2rem 0; }
+  .header-list {
+    display: flex;
+    gap: 3rem;
+    justify-content: center; }
+    .header-list-item {
+      list-style: none; }
+    .header-list-a {
+      text-decoration: none;
+      color: #828282; }
+    .header-list-active {
+      color: #111111;
+      padding-bottom: .4rem;
+      border-bottom: 1px solid #111111; }
+
+.section-buildings {
+  background-color: #F2F2F2;
+  padding-top: 17rem; }
